@@ -12,35 +12,35 @@ import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
-  url: 'http://localhost:5173/',
-  title: 'Harsh Agrawal Blog',
-  subtitle: '🚀 QWER - Built using Svelte with ❤',
-  description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
+  url: 'https://blog.harshagrawal.xyz',
+  title: 'Harsh Agrawal',
+  subtitle: 'Knowledge about coding, tech..',
+  description: 'A nice blog made by Harsh Agrawal..',
   lang: 'en',
-  timeZone: 'Asia/Taipei',
+  timeZone: 'Asia/Kolkata',
   since: 2023,
   cover: SiteCover,
   author: {
     name: 'Harsh Agrawal',
-    status: '🚀',
-    statusTip:
-      '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
+    status: '❤️',
+    statusTip: 'In a journey to suceed...',
+
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://github.com/kwchang0831/svelte-QWER',
-    github: 'https://github.com/kwchang0831',
+    website: 'https://blog.harshagrawal.xyz',
+    github: 'https://github.com/harshdev2',
     email: 'averageworkspace@gmail.com',
-    bio: `Peace begins <br/> With a smile`,
+    bio: `Life is a <b>Journey</b>.`,
   },
 };
 
 export const headConfig: Site.Head = {
   // Used for IndieWeb
-  me: ['https://github.com/kwchang0831'],
+  me: ['https://github.com/harshdev2'],
   custom: ({ dev }) =>
     dev
       ? [
@@ -93,10 +93,10 @@ export const dateConfig: Site.DateConfig = {
 export const giscusConfig: Giscus.Config = {
   enable: true,
   id: 'giscus-comment',
-  repo: import.meta.env.QWER_GISCUS_REPO,
-  repoId: import.meta.env.QWER_GISCUS_REPO_ID,
-  category: import.meta.env.QWER_GISCUS_CATEGORY,
-  categoryId: import.meta.env.QWER_GISCUS_CATEGORY_ID,
+  repo: 'harshdev2/harsh-blog',
+  repoId: 'R_kgDOI3YrlA',
+  category: 'Comments',
+  categoryId: 'DIC_kwDOI3YrlM4CT4c6',
   mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '0',
@@ -111,16 +111,6 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     name: 'About',
     url: '/about',
   },
-  {
-    name: 'See Docs 📄',
-    url: 'https://docs-svelte-qwer.vercel.app/',
-    rel: 'external',
-  },
-  {
-    name: 'Get QWER 🚀',
-    url: 'https://github.com/kwchang0831/svelte-QWER',
-    rel: 'external',
-  },
 ];
 
 export const mobilenavConfig: DD.Nav = {
@@ -129,16 +119,6 @@ export const mobilenavConfig: DD.Nav = {
     {
       name: 'About',
       url: '/about',
-    },
-    {
-      name: 'See Docs 📄',
-      url: 'https://docs-svelte-qwer.vercel.app/',
-      rel: 'external',
-    },
-    {
-      name: 'Get QWER 🚀',
-      url: 'https://github.com/kwchang0831/svelte-QWER',
-      rel: 'external',
     },
   ],
 };

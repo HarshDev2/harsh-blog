@@ -32,7 +32,7 @@
 <svelte:head>
   <title>{siteConfig.title}</title>
   <meta name="description" content={siteConfig.description} />
-  <meta name="google-site-verification" content="pg9jFT9JGDP2V5fiaDgPLcAuDDcVd5RsYnFosleBSMo" />
+  <meta name="google-site-verification" content="rnWdCe2kEVwZfvIZmV5d_R-13jwaqqxyGcID8LIQGY" />
   <link rel="canonical" href={siteConfig.url} />
 
   <!-- OpenGraph -->

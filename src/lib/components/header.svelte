@@ -271,7 +271,7 @@
           placeholder={$LL.IndexSearchBox()}
           spellcheck="false"
           id="index-search"
-          class="grow mx4 px2 h10 rounded bg-transparent border-1 border-black dark:border-white focus:!border-red" />
+          class="grow mx4 px4 h12 text-lg rounded-lg bg-transparent border-1 border-black dark:border-white focus:!border-red" />
         <button class="btn display-inline-block active:translate-y-2 duration-500 ease-out group md:hidden">
           <div class="!w8 !h8 i-carbon-search group-hover:(transition-transform duration-300 scale-120 ease-in-out)" />
         </button>

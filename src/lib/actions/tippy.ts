@@ -1,6 +1,6 @@
 import tippy, { type Props } from 'tippy.js';
 
-export default function tooltip(node: HTMLElement, params: Partial<Props> = {}): SvelteActionReturnType {
+export default function tooltip(node: HTMLElement, params: Partial<Props> = {}) {
   if (!tippy) return;
 
   const defaultParams = {

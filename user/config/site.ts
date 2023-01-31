@@ -13,7 +13,7 @@ import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://blog.harshagrawal.xyz',
-  title: 'Harsh Agrawal',
+  title: 'Byte Codey',
   subtitle: 'Knowledge about coding, tech..',
   description: 'A nice blog made by Harsh Agrawal..',
   lang: 'en',

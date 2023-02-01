@@ -1,7 +1,7 @@
 ---
 title: "A Beginner's Guide to Web Development: Steps to Get Started"
 description: How to start coding into web development?
-summary: 👋 Just some info about me..
+summary: 🧑‍💻 guide to be a professional web dev..
 published: '2023-02-01T13:47:27.605Z'
 updated: '2023-02-01T13:47:27.605Z'
 ---

@@ -4,6 +4,9 @@ description: How to start coding into web development?
 summary: 🧑‍💻 guide to be a professional web dev..
 published: '2023-02-01T13:47:27.605Z'
 updated: '2023-02-01T13:47:27.605Z'
+tags:
+    - web-dev
+    - coding
 ---
 
 Maybe you are a beginner or maybe already have a lil bit of knowledge

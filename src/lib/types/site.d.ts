@@ -4,8 +4,10 @@ export namespace Site {
   export interface Config {
     /** site url  without tailing slash. for example: `https://example.com` */
     url: string;
-    /** site title. */
-    title: string;
+    /** site short title. */
+    shortTitle: string;
+    /** site full title. */
+    fullTitle: string;
     /** site description. `<meta name="description" content={site.description}>` */
     description: string;
     /** site subtitle. */

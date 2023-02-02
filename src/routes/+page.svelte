@@ -30,18 +30,18 @@
 </script>
 
 <svelte:head>
-  <title>{siteConfig.title}</title>
+  <title>{siteConfig.fullTitle}</title>
   <meta name="description" content={siteConfig.description} />
   <meta name="google-site-verification" content="KrnWdCe2kEVwZfvIZmV5d_R-13jwaqqxyGcID8LIQGY" />
   <link rel="canonical" href={siteConfig.url} />
 
   <!-- OpenGraph -->
-  <meta property="og:site_name" content={siteConfig.title} />
+  <meta property="og:site_name" content={siteConfig.fullTitle} />
   <meta property="og:locale" content={siteConfig.lang} />
   <meta property="og:type" content="website" />
 
-  <meta property="og:title" content={siteConfig.title} />
-  <meta name="twitter:title" content={siteConfig.title} />
+  <meta property="og:title" content={siteConfig.fullTitle} />
+  <meta name="twitter:title" content={siteConfig.fullTitle} />
 
   <meta property="og:description" content={siteConfig.description} />
   <meta name="twitter:description" content={siteConfig.description} />

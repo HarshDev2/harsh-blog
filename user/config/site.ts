@@ -13,7 +13,8 @@ import SiteCover from '$assets/preview.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://www.bytecodey.xyz',
-  title: 'Byte Codey - A Coding Focused Blog',
+  shortTitle: 'Byte Codey',
+  fullTitle: 'Byte Codey - A Coding Focused Blog',
   subtitle: 'Knowledge about coding, tech..',
   description: 'Byte Codey is a coding focused blog created by Harsh Agrawal, You can find coding,, tech, tutorials focused blogs here.',
   lang: 'en',

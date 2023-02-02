@@ -178,7 +178,7 @@
           </div>
 
           <a href="/" class="text-xl font-semibold normal-case btn btn-ghost" on:click={resetHome}>
-            {siteConfig.title}
+            {siteConfig.shortTitle}
           </a>
 
           <div class="hidden lg:(flex)">

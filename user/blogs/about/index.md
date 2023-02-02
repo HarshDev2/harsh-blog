@@ -15,7 +15,7 @@ options:
 <Profile bio="Life is a Journey"/>
 
 ## Introduction
-Hi, I'm Harsh Agrawal, a 15-year-old full stack developer and student based in India. I have a passion for technology and have been coding for the past two years. I got interested in full stack development after trying my hand at app and game development, but I found that my true calling was in web development. I am now capable of handling web projects that match those of many college graduates and I am thrilled to be a part of this ever-evolving tech world.
+Hi, I'm Harsh Agrawal, a teenage full stack developer and student based in India. I have a passion for technology and have been coding for the past two years. I got interested in full stack development after trying my hand at app and game development, but I found that my true calling was in web development. I am now capable of handling web projects that match those of many college graduates and I am thrilled to be a part of this ever-evolving tech world.
 
 ## My journey
 it's been two years since i am coding, the time passed by without letting me realize.

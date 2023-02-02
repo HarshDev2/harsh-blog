@@ -12,7 +12,7 @@ import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
-  url: 'https://blog.harshagrawal.xyz',
+  url: 'https://www.bytecodey.xyz',
   title: 'Byte Codey',
   subtitle: 'Knowledge about coding, tech..',
   description: 'A nice blog made by Harsh Agrawal..',
@@ -31,7 +31,7 @@ export const siteConfig: Site.Config = {
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://blog.harshagrawal.xyz',
+    website: 'https://bytecodey.xyz',
     github: 'https://github.com/harshdev2',
     email: 'averageworkspace@gmail.com',
     bio: `Life is a <b>Journey</b>.`,
@@ -52,16 +52,16 @@ export const headConfig: Site.Head = {
           // Replace the following with your own setting
 
           // Plausible
-          '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
+          /* '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
           '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
-          // Google tag (gtag.js)
           `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
           `<script type="text/partytown">
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-LQ73GWF6XT');
-          </script>`,
+          </script>`, */
+
         ],
 };
 

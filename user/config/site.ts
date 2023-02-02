@@ -13,9 +13,9 @@ import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://www.bytecodey.xyz',
-  title: 'Byte Codey',
+  title: 'Byte Codey - A Coding Focused Blog',
   subtitle: 'Knowledge about coding, tech..',
-  description: 'A nice blog made by Harsh Agrawal..',
+  description: 'Byte Codey is a coding focused blog created by Harsh Agrawal, Byte Codey provides coding, tech related blogs.',
   lang: 'en',
   timeZone: 'Asia/Kolkata',
   since: 2023,

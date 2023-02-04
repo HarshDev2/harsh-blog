@@ -13,12 +13,12 @@
 </script>
 
 <svelte:head>
-  <title>{post.title} | {siteConfig.title}</title>
+  <title>{post.title} | {siteConfig.shortTitle}</title>
   <meta name="description" content={post.description} />
   <link rel="canonical" href={new URL(post.slug, siteConfig.url).href} />
 
   <!-- OpenGraph -->
-  <meta property="og:site_name" content={siteConfig.title} />
+  <meta property="og:site_name" content={siteConfig.shortTitle} />
   <meta property="og:locale" content={siteConfig.lang} />
   <meta property="og:type" content="article" />
 
